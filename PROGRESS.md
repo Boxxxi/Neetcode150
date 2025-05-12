@@ -9,7 +9,7 @@
 - [x] 238. Products of Array Except Self
 - [x] 36. Valid Sudoku
 - [x] 271. Encode and Decode Strings
-- [ ] 128. Longest Consecutive Sequence
+- [x] 128. Longest Consecutive Sequence
 
 ## Two Pointers
 - [ ] 125. Valid Palindrome
