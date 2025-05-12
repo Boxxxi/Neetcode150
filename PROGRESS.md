@@ -2,10 +2,10 @@
 
 ## Arrays & Hashing
 - [x] 1. Two Sum
-- [ ] 217. Contains Duplicate
-- [ ] 242. Valid Anagram
-- [ ] 49. Group Anagrams
-- [ ] 347. Top K Frequent Elements
+- [x] 217. Contains Duplicate
+- [x] 242. Valid Anagram
+- [x] 49. Group Anagrams
+- [x] 347. Top K Frequent Elements
 - [x] 238. Products of Array Except Self
 - [x] 36. Valid Sudoku
 - [x] 271. Encode and Decode Strings
@@ -186,4 +186,4 @@
 - [ ] 268. Missing Number
 - [ ] 371. Sum of Two Integers
 
-# Total Problems Completed: 6/150
+# Total Problems Completed: 10/150
