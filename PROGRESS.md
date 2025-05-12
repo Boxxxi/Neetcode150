@@ -6,16 +6,16 @@
 - [ ] 242. Valid Anagram
 - [ ] 49. Group Anagrams
 - [ ] 347. Top K Frequent Elements
-- [ ] 238. Products of Array Except Self
+- [x] 238. Products of Array Except Self
 - [ ] 36. Valid Sudoku
-- [ ] 271. Encode and Decode Strings
+- [x] 271. Encode and Decode Strings
 - [ ] 128. Longest Consecutive Sequence
 
 ## Two Pointers
 - [ ] 125. Valid Palindrome
 - [ ] 167. Two Sum II
 - [ ] 15. 3Sum
-- [ ] 11. Container With Most Water
+- [x] 11. Container With Most Water
 - [ ] 42. Trapping Rain Water
 
 ## Sliding Window
