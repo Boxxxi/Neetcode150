@@ -7,7 +7,7 @@
 - [ ] 49. Group Anagrams
 - [ ] 347. Top K Frequent Elements
 - [x] 238. Products of Array Except Self
-- [ ] 36. Valid Sudoku
+- [x] 36. Valid Sudoku
 - [x] 271. Encode and Decode Strings
 - [ ] 128. Longest Consecutive Sequence
 
