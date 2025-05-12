@@ -103,8 +103,8 @@ def update_progress_file(completed_problems):
         elif line.startswith('- [ ]'):
             total_problems += 1
             updated_lines.append(line)
-        elif line.startswith('## Total Problems Completed:'):
-            updated_lines.append(f"## Total Problems Completed: {total_completed}/{total_problems}\n")
+        elif line.startswith('# Total Problems Completed:'):
+            updated_lines.append(f"# Total Problems Completed: {total_completed}/{total_problems}\n")
         else:
             updated_lines.append(line)
     
