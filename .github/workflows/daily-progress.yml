@@ -11,6 +11,10 @@ on:
   # Allows manual triggering from the Actions tab
   workflow_dispatch:
 
+# Add permissions block
+permissions:
+  contents: write
+
 jobs:
   update-progress:
     runs-on: ubuntu-latest
