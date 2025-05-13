@@ -12,8 +12,8 @@
 - [x] 128. Longest Consecutive Sequence
 
 ## Two Pointers
-- [ ] 125. Valid Palindrome
-- [ ] 167. Two Sum II
+- [x] 125. Valid Palindrome
+- [x] 167. Two Sum II
 - [ ] 15. 3Sum
 - [x] 11. Container With Most Water
 - [ ] 42. Trapping Rain Water
@@ -186,4 +186,4 @@
 - [ ] 268. Missing Number
 - [ ] 371. Sum of Two Integers
 
-# Total Problems Completed: 10/150
+# Total Problems Completed: 12/150
