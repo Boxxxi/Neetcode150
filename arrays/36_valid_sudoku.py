@@ -86,11 +86,11 @@ if __name__ == "__main__":
     # Test case 1
     test1_input = None
     expected1 = None
-    result1 = solution.solution_function(test1_input)
+    result1 = solution.isValidSudoku(test1_input)
     print(f"Test 1 passed: {result1 == expected1}")
     
     # Test case 2
     test2_input = None
     expected2 = None
-    result2 = solution.solution_function(test2_input)
+    result2 = solution.isValidSudoku(test2_input)
     print(f"Test 2 passed: {result2 == expected2}") 
