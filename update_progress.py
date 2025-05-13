@@ -104,7 +104,7 @@ def update_progress_file(completed_problems):
             total_problems += 1
             updated_lines.append(line)
         elif line.startswith('# Total Problems Completed:'):
-            updated_lines.append(f"# Total Problems Completed: ({total_completed}/{total_problems})\n{total_completed / total_problems * 100:.2f}|{'|' * total_completed}{' ' * (total_problems - total_completed)}|")
+            updated_lines.append(f"# Total Problems Completed: ({total_completed}/{total_problems})\nProgress: {total_completed / total_problems * 100:.f}% - |{'|' * total_completed}{'.' * (total_problems - total_completed)}|")
         else:
             updated_lines.append(line)
     
