@@ -5,9 +5,12 @@ Link: https://leetcode.com/problems/container-with-most-water/
 Difficulty: Medium
 
 Problem Description:
-You are given an integer array heights where heights[i] represents the height of the $i^{th}$  bar.
+You are given an integer array heights where heights[i] represents the height of the ith bar.
 
 You may choose any two bars to form a container. Return the maximum amount of water a container can store.
+
+![Container With Most Water](../images/11_container_with_most_water.avif)
+
 
 Example 1:
 Input: height = [1,7,2,5,4,7,3,6]
@@ -30,11 +33,30 @@ Time Complexity: O(n)
 Space Complexity: O(1)
 """
 
+from typing import List
 
 class Solution:
-    def solution_function(self, param1, param2):
-        # Your solution here
-        pass
+    def maxArea(self, heights: List[int]) -> int:
+        len_hts = len(heights)
+        initial_area = min(heights[0],  heights[-1]) * (len_hts - 1)
+
+        max_area = initial_area
+
+        pointer1 = 0
+        pointer2 = len_hts - 1
+
+        while pointer2 > pointer1:
+            area = (pointer2 - pointer1) * min(heights[pointer1], heights[pointer2])
+            if area > max_area:
+                max_area = area
+            
+            if heights[pointer1] < heights[pointer2]:
+                pointer1 += 1
+            else:
+                pointer2 -= 1
+
+        return max_area
+
 
 
 # Test cases
